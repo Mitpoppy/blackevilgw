@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Black Evil</title>
+		<meta name="description" content="Black Evil纯生存服务器" />
+		<meta name="keywords" content="我的世界,我的世界生存,我的世界纯生存,我的世界纯生存服务器,我的世界生存服务器,我的世界官网,Black Evil" />
+		<link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico" />
+		<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/slick.css" rel="stylesheet" />
+		<link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet" />
+		<link href="style.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+		<!--[endif]---->
+	</head>
+
+	<body>
+		<header id="mu-header" class="" role="banner">
+			<div class="container">
+				<nav class="navbar navbar-default mu-navbar">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+							<a class="navbar-brand" href="index.html"><i class="fa fa-cube" aria-hidden="true"></i> Black Evil</a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav mu-menu navbar-right">
+								<li>
+									<a href="#">主页</a>
+								</li>
+								<li>
+									<a href="#mu-book-overview">优势</a>
+								</li>
+								<li>
+									<a href="#mu-author">关于本服</a>
+								</li>
+								<li>
+									<a href="#mu-pricing">赞助我们</a>
+								</li>
+								<li>
+									<a href="#mu-testimonials">玩家反馈</a>
+								</li>
+								<li>
+									<a href="#mu-contact">加入我们</a>
+								</li>
+								<li>
+									<a href="https://jq.qq.com/?_wv=1027&k=4RBYHbEG">加入群聊</a>
+								</li>
+								<a href="./gnjs/addon.html" class="mu-primary-btn">玩法介绍</a>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<section id="mu-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-sm-push-6">
+						<div class="mu-hero-right">
+							<img src="assets/images/ebook.png" alt="Ebook img" />
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-sm-pull-6">
+						<div class="mu-hero-left">
+							<h1>给您绝佳的Minecraft生存服务器体验</h1>
+							<p>纯生存多样化玩法，有原版所有特性还能获得成就等奖励
+								<br>6H12G i9-9900k云高配置服务器给您带来最流畅的游戏体验
+								<br>生存、建筑、红石、跑酷、打怪等多元化共存
+								<br>充分满足生存玩家探索、娱乐的需要
+								<br>还有丰富的菜单功能等众多插件
+								<br>包括大型RPG服副本，打怪等</p>
+							<a href="./khdxz/qbb.html" class="mu-primary-btn">立即下载</a>  <a href = "JavaScript:void(0)" onclick = "openDialog()" class="mu-primary-btn">状态查询</a>
+							<span>Black Evil服务器管理组敬上</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<main role="main">
+			<section id="mu-counter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-counter-area">
+								<div class="mu-counter-block">
+									<div class="row">
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-single-counter">
+												<i class="fa fa-sun-o" aria-hidden="true"></i>
+												<div class="counter-value" id="days">
+													<script>
+														var s1 = '2020-03-25'; //设置为你的开始时间 
+														s1 = new Date(s1.replace(/-/g, "/"));
+														s2 = new Date();
+														var days = s2.getTime() - s1.getTime();
+														var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+														document.getElementById('days').innerHTML = number_of_days;
+													</script>
+												</div>
+												<h5 class="mu-counter-name">开服天数</h5>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-single-counter">
+												<i class="fa fa-users" aria-hidden="true"></i>
+												<div class="counter-value" data-count="510">
+													0
+												</div>
+												<h5 class="mu-counter-name">玩家数量</h5>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-single-counter">
+												<i class="fa fa-download" aria-hidden="true"></i>
+												<div class="counter-value" data-count="268">
+													0
+												</div>
+												<h5 class="mu-counter-name">客户端下载数</h5>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-single-counter">
+												<i class="fa fa-recycle" aria-hidden="true"></i>
+												<div class="counter-value" data-count="03">
+													0
+												</div>
+												<h5 class="mu-counter-name">周目更新</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mu-book-overview">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-book-overview-area">
+								<div class="mu-heading-area">
+									<h2 class="mu-heading-title">我们的优势</h2>
+									<span class="mu-header-dot"></span>
+									<p>基岩版BDXC框架<br> 在保留原版特性和成就的基础上 增添更多新的插件和<u><a class="Aclass" href="./gnjs/addon.html">行为包</a></u>、<u><a class="Aclass" href="./gnjs/addon.html">材质包</a></u> 商店，玩家传送，设家，圈地，称号 未来将推出公会系统 保证玩家在体验原版的基础上，收获更多快乐
+									</p>
+								</div>
+								<div class="mu-book-overview-content">
+									<div class="row">
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-book-overview-single">
+												<span class="mu-book-overview-icon-box"> <i class="fa fa-server" aria-hidden="true"></i> </span>
+												<h4>高配置服务器</h4>
+												<p>6H12Gi9-9900k云高配服务器，给您流畅体验，保证服务器完美安全稳定运行。</p>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-book-overview-single">
+												<span class="mu-book-overview-icon-box"> <i class="fa fa-cubes" aria-hidden="true"></i> </span>
+												<h4>插件系统</h4>
+												<p>基岩版bdxc纯生存插件服，利用插件实现传送、菜单等独一无二的操作！</p>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-book-overview-single">
+												<span class="mu-book-overview-icon-box"> <i class="fa fa-heart" aria-hidden="true"></i> </span>
+												<h4>多元化结合</h4>
+												<p>跑酷和副本、强大的<u><a class="Aclass"  href="./gnjs/addon.html">材质包</a></u>+<u><a class="Aclass"  href="./gnjs/addon.html">行为包</a></u>满足您对Minecraft的探索欲望，可玩性高。服内还有RPG服满足您的游戏渴望！</p>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-book-overview-single">
+												<span class="mu-book-overview-icon-box"> <i class="fa fa-files-o" aria-hidden="true"></i> </span>
+												<h4>服务器安全性</h4>
+												<p>还在害怕熊嘛？ 服务器在安保方面也是有许多管理上的和插件方面的支持 ①较为完善白名单审核系统 ②实时更新的反作弊系统 ③定期查看，随时可看的后台监控 ④定时自动备份地图 ⑤服务器已入驻云黑，可将记录中的熊孩一并拒之门外
+												</p>
+											</div>
+										</div>
+										<div class="mu-book-overview-content">
+											<div class="row">
+												<div class="col-md-3 col-sm-6">
+													<div class="mu-book-overview-single">
+														<span class="mu-book-overview-icon-box"> <i class="fa fa-users" aria-hidden="true"></i> </span>
+														<h4>热心玩家</h4>
+														<p>服务器内有众多热爱帮助的友善玩家，有着你有困难百人帮的优良品质，快来加入我们吧！</p>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6">
+													<div class="mu-book-overview-single">
+														<span class="mu-book-overview-icon-box"> <i class="fa fa-lock" aria-hidden="true"></i> </span>
+														<h4>权限控制</h4>
+														<p>服务器仅有技术人员和腐竹拥有OP权限，无任何滥用行为，还有专业的反外挂措施玩家可以放心游玩</p>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6">
+													<div class="mu-book-overview-single">
+														<span class="mu-book-overview-icon-box"> <i class="fa fa-heart" aria-hidden="true"></i> </span>
+														<h4>结婚系统</h4>
+														<p>服内还有帅气大方的服主和你么么哒，还有声音好听甜美的管理员<a href="./xyx/3DCube/index.html">DJ</a>陪您聊天说话。</p>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6">
+													<div class="mu-book-overview-single">
+														<span class="mu-book-overview-icon-box"> <i class="fa fa-files-o" aria-hidden="true"></i> </span>
+														<h4>数据备份</h4>
+														<p>玩家数据自动备份，保护你的物品等物资不受到破坏和被熊，定期自动备份数据和玩家行为动作的监控</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mu-video-review">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-video-review-area">
+								<div class="mu-heading-area">
+									<h2 class="mu-heading-title">观看宣传片</h2>
+									<span class="mu-header-dot"></span>
+									<p>Black Evil四周目全新启航</p>
+								</div>
+								<div class="mu-video-review-content">
+									<iframe class="mu-video-iframe" width="100%" height="480" src="http://player.bilibili.com/player.html?aid=33297130&amp;cid=58280962&amp;page=1" frameborder="0" allowfullscreen=""></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mu-author">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-author-area">
+								<div class="mu-heading-area">
+									<h2 class="mu-heading-title">关于本服</h2>
+									<span class="mu-header-dot"></span>
+								</div>
+								<div class="mu-author-content">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="mu-author-image">
+												<img src="assets/images/author.jpg" alt="Author Image" />
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="mu-author-info">
+												<h3>流程及插件</h3>
+												<p>流程：进服之前要加入群聊获取白名单方可进入服务器游玩
+											    <br>服务器通用IP：heie.fun
+												<br>RPG服端口：20013（不需要白名单）
+												<br>空岛生存服端口：20019（需要白名单）
+												<br>困难生存服端口：20017（需要白名单）</p>
+												<br>服务器分为RPG 空岛生存 困难生存服其中困难和空岛都是有添加<u><a class="Aclass" href="./gnjs/addon.html">材质包</a></u>和<u><a class="Aclass" href="./gnjs/addon.html">行为包</a></u>的，丰富您的游戏体验！
+												<p>插件：传送、领地圈地、菜单、商店、背包同步等多种插件（进群了解详情）</p>
+												<img class="mu-author-sign" src="http://www.dmoe.cc/random.php" alt="Author Signature" />
+												<div class="mu-author-social">
+													<a href="#"><i class="fa fa-weibo"></i></a>
+													<a href="#"><i class="fa fa-wechat"></i></a>
+													<a href="#"><i class="fa fa-cube"></i></a>
+													<a href="#"><i class="fa fa-group"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mu-pricing">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-pricing-area">
+								<div class="mu-heading-area">
+									<h2 class="mu-heading-title">赞助我们</h2>
+									<span class="mu-header-dot"></span>
+									<p>服务器的长期运营离不开玩家的赞助，更多详细充值赞助信息请在群内查看</p>
+								</div>
+								<div class="mu-pricing-content">
+									<div class="row">
+										<div class="col-sm-6 col-md-4">
+											<div class="mu-pricing-single">
+												<div class="mu-pricing-single-head">
+													<h4>VIP1</h4>
+													<p class="mu-price-tag"> <span>￥</span> 5 </p>
+												</div>
+												<ul class="mu-price-feature">
+													<li> 自定义称号 </li>
+													<li> 特殊礼包 </li>
+													<li> 狗子大大的么么哒 </li>
+													<li> 特殊进服方式 </li>
+												</ul>
+												<div class="mu-pricing-single-footer">
+													<a href="http://wpa.qq.com/msgrd?v=3&uin=1175051785&site=qq&menu=yes" class="mu-order-btn">联系赞助</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-md-4">
+											<div class="mu-pricing-single mu-popular-price-tag">
+												<div class="mu-pricing-single-head">
+													<h4>VIP2[推荐]</h4>
+													<p class="mu-price-tag"> <span>￥</span> 10 </p>
+												</div>
+												<ul class="mu-price-feature">
+													<li> 自定义称号 </li>
+													<li> 特殊礼包 </li>
+													<li> 副服主的么么哒并送指定称号 </li>
+													<li> 专属特色 </li>
+												</ul>
+												<div class="mu-pricing-single-footer">
+													<a href="http://wpa.qq.com/msgrd?v=3&uin=1175051785&site=qq&menu=yes" class="mu-order-btn">联系赞助</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-md-4">
+											<div class="mu-pricing-single">
+												<div class="mu-pricing-single-head">
+													<h4>VIP3</h4>
+													<p class="mu-price-tag"> <span>￥</span> 30 </p>
+												</div>
+												<ul class="mu-price-feature">
+													<li> 自定义称号 </li>
+													<li> 服主大大的么么哒并送指定称号 </li>
+													<li> 特殊在线客服 </li>
+													<li> 称号半价格更换 </li>
+												</ul>
+												<div class="mu-pricing-single-footer">
+													<a href="http://wpa.qq.com/msgrd?v=3&uin=1175051785&site=qq&menu=yes" class="mu-order-btn">联系赞助</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mu-testimonials">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-testimonials-area">
+								<div class="mu-heading-area">
+									<h2 class="mu-heading-title">玩家反馈</h2>
+									<span class="mu-header-dot"></span>
+								</div>
+								<div class="mu-testimonials-block">
+									<ul class="mu-testimonial-slide">
+										<li>
+											<p>&quot; 感谢服务器让我的生活不那么无趣，里面的群主和管理们超级好，在我有困难的时候向他们请求帮助，都会帮助我！&quot;</p> <img class="mu-rt-img" src="assets/images/reader-1.jpg" alt="img" />
+											<h5 class="mu-rt-name"> - Jessica</h5> <span class="mu-rt-title">2019.07.01</span> </li>
+										<li>
+											<p>&quot; 服务器贼鸡儿好玩，话不多说就是好玩！&quot;</p> <img class="mu-rt-img" src="assets/images/reader-2.jpg" alt="img" />
+											<h5 class="mu-rt-name"> - Nick</h5> <span class="mu-rt-title">2019.06.15</span> </li>
+										<li>
+											<p>&quot; 我是黑恶的一名空岛玩家，不吹不黑，黑恶真的是我玩mc这么久以来最好的服务器了，虽然还有可以进步的地方，但腐竹和各位管理大大都非常友善，会听取玩家意见，相信即使有些小毛病也会在不久后消失的吧。&quot;</p> <img class="mu-rt-img" src="assets/images/reader-3.jpg" alt="img" />
+											<h5 class="mu-rt-name"> - John</h5> <span class="mu-rt-title">2019.06.28 </span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mu-contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-contact-area">
+								<div class="mu-heading-area">
+									<h2 class="mu-heading-title">加入我们</h2>
+									<span class="mu-header-dot"></span>
+									<p>加入我们，就现在，给您绝佳的游戏体验。</p>
+								</div>
+								<div class="mu-author-content">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="mu-author-image">
+												<img src="assets/images/jiaru.jpg" alt="Author Image" />
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="mu-author-info">
+												<h3>欢迎您的加入</h3>
+												<p>扫描下方二维码，或者点击上方加群，加入我们</p>
+												<p>我们给你最好的帮助，最好的游戏体验，请加入我们</p>
+												<img class="mu-author-sign" src="assets/images/author-signature.png" alt="Author Signature" />
+												<div class="mu-author-social">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="mu-footer" role="contentinfo">
+			<div class="container">
+				<div class="mu-footer-area">
+					<div class="mu-social-media">
+						<a href="#"><i class="fa fa-weibo"></i></a>
+						<a href="#"><i class="fa fa-envelope"></i></a>
+						<a href="#"><i class="fa fa-wechat"></i></a>
+						<a href="#"><i class="fa fa-group"></i></a>
+					</div>
+      <!-- 状态查询按钮点击悬浮窗开始 -->
+    <style> 
+        .black_overlay{ 
+            display: none; 
+            position: absolute; 
+            top: 0%; 
+            left: 0%; 
+            width: 100%; 
+            height: 100%; 
+            background-color: black; 
+            z-index:1001; 
+            -moz-opacity: 0.8; 
+            opacity:.80; 
+            filter: alpha(opacity=88); 
+        } 
+        .white_content { 
+            display: none; 
+            position: absolute; 
+            top: 25%; 
+            left: 25%; 
+            width: 55%; 
+            height: 55%; 
+            padding: 20px; 
+            border: 10px solid orange; 
+            background-color: white; 
+            z-index:1002; 
+            overflow: auto; 
+        } 
+    </style>
+<!-- 百度统计 -->	
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3c27794bd55cdb15baf828bf0f3a260c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    </head> 
+    <body> 
+        <div id="light" class="white_content">
+            <table>
+                <tr>
+                    <td><a href = "./ztcx/kdsc.html" >空岛生存服状态查询（点击跳转）</a></td>
+                </tr>
+                <tr>
+                    <td><a href = "./ztcx/knsc.html" >困难生存服状态查询（点击跳转）</a></td>
+                </tr>
+                <tr>
+                    <td><a href = "" onclick = "closeDialog()" >RPG综合服状态查询（暂未对接）</a></td>
+                </tr>
+            </table> 
+			    <a href = "javascript:void(0)" onclick = "closeDialog()" >点这里关闭本窗口</a>
+			<br><a href = "javascript:void(0)" onclick = "closeDialog()" >点这里关闭本窗口</a>
+            <br><a href = "javascript:void(0)" onclick = "closeDialog()" >点这里关闭本窗口</a>
+        </div> 
+        <div id="fade" class="black_overlay"></div> 
+    </body> 
+    <script type="text/javascript">
+        $(function(){
+        })
+        function openDialog(){
+            document.getElementById('light').style.display='block';
+            document.getElementById('fade').style.display='block'
+        }
+        function closeDialog(){
+            document.getElementById('light').style.display='none';
+            document.getElementById('fade').style.display='none'
+        }
+    </script>
+					<!-- 状态查询按钮点击悬浮窗结束 -->
+					<span> 本站已运行</span>
+					<span id="span_dt_dt"></span>
+					<script>
+						/*建站时间*/
+						function show_date_time() {
+							window.setTimeout("show_date_time()", 1e3);
+							var BirthDay = new Date("2020/07/21"),
+								today = new Date,
+								timeold = today.getTime() - BirthDay.getTime(),
+								msPerDay = 864e5,
+								e_daysold = timeold / msPerDay,
+								daysold = Math.floor(e_daysold),
+								e_hrsold = 24 * (e_daysold - daysold),
+								hrsold = Math.floor(e_hrsold),
+								e_minsold = 60 * (e_hrsold - hrsold),
+								minsold = Math.floor(60 * (e_hrsold - hrsold)),
+								seconds = Math.floor(60 * (e_minsold - minsold));
+							span_dt_dt.innerHTML = daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+						}
+						show_date_time();
+					</script>
+					<img alt="今日诗词加载中..." src="https://v2.jinrishici.com/one.svg" style="max-width:100%; display: block; margin: 0 auto;">
+					<p class="mu-copyright">&copy; Copyright 2019 All right reserved.由
+						<a href="#" target="_blank" title="Black Evil"> 狗子 </a>提供技术支持</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/slick.min.js"></script>
+		<script type="text/javascript" src="assets/js/counter.js"></script>
+		<script type="text/javascript" src="assets/js/app.js"></script>
+		<script type="text/javascript" src="assets/js/custom.js"></script>
+		<script src="https://lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://myhkw.cn/api/player/1613635188103" id="myhk" key="1613635188103" m="1"></script>
+	</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>玩法介绍文档-Black Evil</title>
+		<meta name="description" content="Black Evil" />
+		<meta name="keywords" content="我的世界,我的世界生存,我的世界纯生存,我的世界纯生存服务器,我的世界生存服务器,我的世界官网,Black Evil" />
+		<!--[endif]---->
+	</head>
+<head>
+<meta charset="gb2312" />
+<style>
+body,ul,li{margin:0; padding:0; font:12px/1.5 arial;}
+ul,li{list-style:none;}
+.wrap{width:500px; margin:20px auto;}
+.hide{display:none;}
+#tab_t{
+height:25px;
+border-bottom:1px solid #ccc;
+}
+#tab_t li{
+float:left;
+width:80px;
+height:24px;
+line-height:24px;
+margin:0 4px;
+text-align:center;
+border:1px solid #ccc;
+border-bottom:none;
+background:#f5f5f5;
+cursor:pointer
+}
+#tab_t .act{
+position:relative;
+height:25px;
+margin-bottom:-1px;
+background:#fff;
+}
+#tab_c{
+border:1px solid #ccc;
+border-top:none;
+padding:20px;
+}
+ .box1{text-align: center;}
+</style>
+<script>
+window.onload = function(){
+ tab("tab_t","li","tab_c","div","onmouseover")
+ function tab(tab_t,tab_t_tag,tab_c,tag_c_tag,evt){
+  var tab_t = document.getElementById(tab_t);
+  var tab_t_li = tab_t.getElementsByTagName(tab_t_tag);
+  var tab_c = document.getElementById(tab_c);
+  var tab_c_li = tab_c.getElementsByTagName(tag_c_tag);
+  var len = tab_t_li.length;
+  var i=0;
+  for(i=0; i<len; i++){
+   tab_t_li[i].index = i;
+   tab_t_li[i][evt] = function(){
+    for(i=0; i<len; i++){
+     tab_t_li[i].className = '';
+     tab_c_li[i].className = 'hide';
+    }
+    tab_t_li[this.index].className = 'act';
+    tab_c_li[this.index].className = '';
+   }
+  }
+ }
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+ <ul id="tab_t">
+ <li class="act">困难生存服</li>
+ <li>空岛生存服</li>
+ <li>RPG综合服</li>
+ <li>关于服务器</li>
+ </ul>
+ <div id="tab_c">
+ <div><h1><p class="box1"><b>困难生存服行为包介绍</b></p></h1>
+ <h2><p class="box1"><b>怪物机制调整</b></p></h2>
+ <h2><b>破坏</b></h2>
+ <font size="3">大部分敌对生物会破坏所有的草类，花类，农作物，栅栏以及树叶和光源方块[除南瓜灯以外的完整光源方块不会被破坏]。苦力怕爆破将不会再破坏方块。</font>
+ <h2><b>血量</b></h2>
+ <font size="3">除boss外所有敌对生物血量×2，末影龙改为20万，凋零改为3万。</font>
+ <h2><b>攻击</b></h2>
+ <font size="3">所有敌对生物攻击×2，僵尸附带失明效果1s，蜘蛛攻击有可能产生蜘蛛网并附带减速2效果5s</font>
+ <h2><b>新生物</b></h2>
+ <font size="3">凋零头颅落地会产生凋零蠹虫[血8攻1+凋零10s]</font>
+ <h2><b>幼崽</b></h2>
+ <font size="3">凋零骷髅和末影人新增幼崽形态。</font>
+ <h2><p class="box1"><b>更多建筑方块</b></p></h2>
+ <font size="3">增加多种发光方块，未来会增加幸运方块</font>
+ <h2><p class="box1"><b>食物调整</b></p></h2>
+ <h2><b>新增食物药水效果</b></h2>
+ <font size="3">面包（效果：生命回复3秒）</font>
+ <font size="3">兔肉（效果：作者脑袋有点问题导致忘了)</font>
+ <font size="3">金萝卜（效果：夜视3分钟）</font>
+ <h2><b>新增食物</b></h2>
+ <font size="3">海面包</font>
+ <font size="3">海草卷（效果：水下呼吸15秒）</font>
+ <br><font size="3">有其他想法的可以加群向管理员addg提出</font>
+ <h2><p class="box1"><b>插件</b></p></h2>
+ <font size="3">tp 设家 back 领地 箱子商店 钟菜单 赏金猎人</font>
+ <h2><p class="box1"><b>特殊机制</b></p></h2>
+ <font size="3">白天不掉落/夜间掉落/地狱听天由命 新增一些好看的♂画</font></div>
+ <div class="hide">暂无介绍</div>
+ <div class="hide">暂无介绍</div>
+ <div class="hide"><h1><p class="box1"><b>感谢您的支持</b></p></h1></div>
+</div>
+</div> 
+</body>
+</html>

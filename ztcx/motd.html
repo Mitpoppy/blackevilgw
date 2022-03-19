@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Black Evil</title>
+		<style type="text/css">
+			.tabtop13 {
+				margin-top: 13px;
+				opacity: 0.7;
+			}
+			.tabtop13 td{
+				background-color:#ffffff;
+				height:25px;
+				line-height:150%;
+			}
+			.font-center { text-align:center}
+			.btbg {background:#e9faff !important;}
+			.biaoti {
+				font-family: 微软雅黑;
+				font-size: 26px;
+				font-weight: bold;
+				border-bottom:1px dashed #CCCCCC;
+				color: #BE5D40;
+			}
+			.titfont {
+				font-family: 微软雅黑;
+				font-size: 16px;
+				font-weight: bold;
+				color: #BE5D40;
+				background-color:#e9faff;
+			}
+			#ptime {
+				color: #45B311;
+			}
+			html {
+				height: 100%;
+			}
+			body {
+				background-image: url('./background.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+			<tr>
+			<td align="center" class="biaoti" height="60">Black  Evil- Server status</td>
+			</tr>
+			<tr>
+			<td align="right" height="25" id="ptime">请求时间: -</td>
+			</tr>
+		</table>
+		<table border="0" cellspacing="2" bgcolor="#cccccc" class="tabtop13" >
+			<tr>
+				<td class="btbg font-center titfont">item</td>
+				<td width="8%" class="btbg font-center titfont" id="tb_hesd_status">status</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">IP</td>
+				<td width="8%" class="btbg font-center" id="tb_host">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">端口</td>
+				<td width="8%" class="btbg font-center" id="tb_port">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">开服状态</td>
+				<td width="8%" class="btbg font-center" id="tb_status">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">游戏延迟</td>
+				<td width="8%" class="btbg font-center" id="tb_delay">- </td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">游戏版本</td>
+				<td width="8%" class="btbg font-center" id="tb_version">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">在线人数</td>
+				<td width="8%" class="btbg font-center" id="tb_online">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">最大人数</td>
+				<td width="8%" class="btbg font-center" id="tb_maxonline">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">游戏模式</td>
+				<td width="8%" class="btbg font-center" id="tb_gamemode">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">描述文本</td>
+				<td width="8%" class="btbg font-center" id="tb_motd">-</td>
+			</tr>
+			<tr>
+				<td width="8%" class="btbg font-center">协议版本</td>
+				<td width="8%" class="btbg font-center" id="tb_agreement">-</td>
+			</tr>
+		</table>
+	</body>
+	<script type="text/javascript">
+		function reload()
+		{
+			// 创建ajax对象
+			var xmlhttp;
+			if (window.XMLHttpRequest)
+			{
+				// IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}
+			else
+			{
+				// IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			// 处理请求
+			xmlhttp.onreadystatechange=function()
+			{
+				if (xmlhttp.readyState==4 && xmlhttp.status==200)
+				{
+					// 解析响应json
+					var responseText = xmlhttp.responseText;
+					var responseObj =JSON.parse(responseText);
+					// inner html
+					document.getElementById("tb_ip").innerHTML=responseObj.ip;
+					document.getElementById("tb_port").innerHTML=responseObj.port;
+					document.getElementById("tb_status").innerHTML=responseObj.status;
+					document.getElementById("tb_delay").innerHTML=responseObj.delay+"ms";
+					document.getElementById("tb_version").innerHTML=responseObj.version;
+					document.getElementById("tb_online").innerHTML=responseObj.online;
+					document.getElementById("tb_maxonline").innerHTML=responseObj.max;
+					document.getElementById("tb_gamemode").in
+\		document.getElementById("tb_motd").innerHTML=responseObj.motd;
+					document.getElementById("tb_agreement").innerHTML=responseObj.agreement;
+				}
+			}
+			xmlhttp.open("GET","https://smgoro.top/motd/api.php?ip=smgoro.top&port=19132",true);
+			xmlhttp.send();
+			var nowDate = new Date().getTime();
+			document.getElementById("ptime").innerHTML = "请求时间: " + nowDate;
+		}
+		reload();
+		window.setInterval(reload, 3000);
+	</script>
+	<br>
+	<center><table border=2 width=40%>
+		<tbody>
+			<tr>
+				<td><center><a href="minecraft://?addExternalServer=§eBlack §bEvil|heie.fun:20019">加入服务器</a></center></td>
+			</tr>
+			</tbody></table></center>
+	<br>
+	<img alt="今日诗词加载中..." src="https://v2.jinrishici.com/one.svg" style="max-width:100%; display: block; margin: 0 auto;">
+</html>
