@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <link rel="shortcut icon" href="https://www.smgoro.top/usr/uploads/3~1.png">
+  <meta charset="UTF-8">
+  <title>链接 - SMG_Main</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="copyright" content="webstack_zmki_0.7.19_www.zmki.cn">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/fonts/linecons/css/linecons.css"> 
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/bootstrap.css">
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/xenon-core.css">
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/xenon-components.css">
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/xenon-skins.css">
+  <link rel="stylesheet" href="../usr/themes/WebStack/css/nav.css">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1627571_5r5ttgth8yq.css"> 
+  <script src="https://at.alicdn.com/t/font_1627571_5r5ttgth8yq.js"></script>
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <link rel="shortcut icon" href="http://www.smgoro.top/favicon.ico">
+  <link rel="apple-touch-icon" href="http://www.smgoro.top/icon.png">  
+  <meta name="description" content="如果有希望入驻本导航站，或者推荐相关网站的想法的话，请在本页面留言。格式：网站URL：网站图标URL：网站备注：网站介绍：联系方式：最后，感谢您的反馈！" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="WebStack" />
+<link rel="pingback" href="action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="链接 &raquo; SMG_Main &raquo; RSS 2.0" href="feed/links.html" />
+<link rel="alternate" type="application/rdf+xml" title="链接 &raquo; SMG_Main &raquo; RSS 1.0" href="feed/rss/links.html" />
+<link rel="alternate" type="application/atom+xml" title="链接 &raquo; SMG_Main &raquo; ATOM 1.0" href="feed/atom/links.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-page-3'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-page-3'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-page-3'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _S0Eie = //'sDN'
+'52'+'405'//'iGh'
++'76'//'Q'
++'4b'//'xHx'
++//'FI'
+'1d'+//'wH'
+'301'+//'s'
+'6'+'542'//'00'
++//'dvj'
+'d'+'ad4'//'xwO'
++'a'//'EM'
++/* '8s0'//'8s0' */''+'Li'//'Li'
++//'X3'
+'d'+'c5'//'2C'
++'0'//'N'
++//'j9'
+'a9d'+//'df'
+'8'+//'sE'
+'7', _H4e = [[23,25]];
+    
+    for (var i = 0; i < _H4e.length; i ++) {
+        _S0Eie = _S0Eie.substring(0, _H4e[i][0]) + _S0Eie.substring(_H4e[i][1]);
+    }
+
+    return _S0Eie;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script>
+<!-- cPlayer Start -->
+<link rel="stylesheet" type="text/css" href="../usr/plugins/cPlayer/assets/dist/cplayer.min.css" />
+<script>var cPlayers = [];var cPlayerOptions = [];</script>
+<!-- cPlayer End -->
+ <!--* @version 4.0 _zmki0.7.19 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?3dbc3f04d9b69d0a8e501ba74a763356";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+<!--百度统计-->
+</head> 
+<body class="page-body ">
+    <!-- skin-white -->
+<div class="page-container">         <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="../index.html" class="logo-expanded">
+                            <img class="logo_size" src="../usr/uploads/3~1.png" width="100%" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="links.html?replyTo=2#" data-toggle="mobile-menu">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                                                                                                                                                             <li>
+                                     <a href="../index.html#常用网站" class="smooth">
+                                        <i class="fa fa-default"></i>
+                                        <span class="title">常用网站</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#Minecraft" class="smooth">
+                                        <i class="fa fa-mc"></i>
+                                        <span class="title">Minecraft</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#娱乐" class="smooth">
+                                        <i class="fa fa-game"></i>
+                                        <span class="title">娱乐</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#学习" class="smooth">
+                                        <i class="fa fa-study"></i>
+                                        <span class="title">学习</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#个人搭建" class="smooth">
+                                        <i class="fa fa-smg"></i>
+                                        <span class="title">个人搭建</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#编程/网站" class="smooth">
+                                        <i class="fa fa-bcweb"></i>
+                                        <span class="title">编程/网站</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#其他" class="smooth">
+                                        <i class="fa fa-other"></i>
+                                        <span class="title">其他</span>
+                                     </a>
+                                 </li>
+                                                                                                                                                                                               <li>
+                                     <a href="../index.html#GithubStar" class="smooth">
+                                        <i class="fa fa-gitstar"></i>
+                                        <span class="title">GithubStar</span>
+                                     </a>
+                                 </li>
+                                                                                                <li class="submit-tag">
+                        <a href="about.html">
+                            <i class="linecons-heart"></i>
+                            <span class="smooth">关于本站</span>
+                            <span class="label label-Primary pull-right hidden-collapsed">♥</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>         <div class="main-content" >
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <!-- 关于网站 -->
+                        <h4 class="text-gray">关于网站</h4>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--<blockquote>-->
+                                        <p>如果有希望入驻本导航站，或者推荐相关网站的想法的话，<br>请在本页面留言。<br>格式：<br>网站URL：<br>网站图标URL：<br>网站备注：<br>网站介绍：<br>联系方式：</p><p>最后，感谢您的反馈！</p>                                    </blockquote>
+                                </div>
+                                 <div id="comments">
+        	<h3>已有 3 条评论</h3>
+    
+    <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-3" class="comment-body comment-parent comment-odd">
+    <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="image"></span>
+        <cite class="fn" itemprop="name"><a href="http://www.lizibuluo.com/8bit/#what" rel="external nofollow">桤屾</a></cite>
+    </div>
+    <div class="comment-meta">
+        <a href="links.html#comment-3"><time itemprop="commentTime" datetime="2021-01-13T11:54:40+08:00">January 13th, 2021 at 11:54 am</time></a>
+            </div>
+    <div class="comment-content" itemprop="commentText">
+    <p>在线像素画网站，我觉得还挺好使的（用习惯的话）</p>    </div>
+    <div class="comment-reply">
+        <a href="links.html?replyTo=3#respond-page-3" rel="nofollow" onclick="return TypechoComment.reply('comment-3', 3);">回复</a>    </div>
+        <div class="comment-children" itemprop="discusses">
+        <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-4" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
+    <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="image"></span>
+        <cite class="fn" itemprop="name"><a href="http://blog.smgoro.top" rel="external nofollow">SummerGoro</a></cite>
+    </div>
+    <div class="comment-meta">
+        <a href="links.html#comment-4"><time itemprop="commentTime" datetime="2021-01-22T20:37:59+08:00">January 22nd, 2021 at 08:37 pm</time></a>
+            </div>
+    <div class="comment-content" itemprop="commentText">
+    <p>你倒是发出来网站链接啊。。</p>    </div>
+    <div class="comment-reply">
+        <a href="links.html?replyTo=4#respond-page-3" rel="nofollow" onclick="return TypechoComment.reply('comment-4', 4);">回复</a>    </div>
+    </li>
+</ol>    </div>
+    </li>
+<li itemscope itemtype="http://schema.org/UserComments" id="comment-2" class="comment-body comment-parent comment-even comment-by-author">
+    <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="image"></span>
+        <cite class="fn" itemprop="name"><a href="http://www.typecho.org" rel="external nofollow">SummerGoro</a></cite>
+    </div>
+    <div class="comment-meta">
+        <a href="links.html#comment-2"><time itemprop="commentTime" datetime="2020-09-26T23:41:09+08:00">September 26th, 2020 at 11:41 pm</time></a>
+            </div>
+    <div class="comment-content" itemprop="commentText">
+    <p>示例：<br>
+网站URL：http://blog.smgoro.top<br>
+网站图标URL：http://blog.smoro.top/favcion.ico<br>
+网站备注：SMGoro的个人博客<br>
+网站介绍：SummerGoro闲的无聊的时候弄得一个无聊的博客。。。<br>
+联系方式：QQ：2128336160</p>    </div>
+    <div class="comment-reply">
+        <a href="links.html?replyTo=2#respond-page-3" rel="nofollow" onclick="return TypechoComment.reply('comment-2', 2);">回复</a>    </div>
+    </li>
+</ol>
+        
+    
+        <div id="respond-page-3" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="links.html#respond-page-3" rel="nofollow" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+    	<h3 id="response">添加新评论</h3>
+    	<form method="post" action="http://www.smgoro.top/index.php/links.html/comment?parent=2" id="comment-form" role="form">
+                        <ul class="compost">
+    		<li>
+    			<input type="text" name="author" id="author" class="text" placeholder="昵称（必填）" value="" required />
+    		</li>
+    		<li>
+    			<input type="email" name="mail" id="mail" class="text" placeholder="邮箱（必填）" value="" required />
+    		</li>
+    		<li>
+    			<input type="url" name="url" id="url" class="text" placeholder="网址（选填）" value="" />
+    		</li>
+            </ul>
+                		<div>
+                <textarea rows="8" cols="50" name="text" id="textarea" placeholder="说点什么吧" class="textarea" required></textarea>
+            </div>
+    		<p>
+                <button type="submit" class="submit">提交评论</button>
+            </p>
+    	</form>
+    </div>
+    </div>
+<style>#comments{padding-top:15px}.comment-list,.comment-list ol{list-style:none;margin:0;padding:0}.comment-list li{padding:14px;margin-top:10px;border:1px solid #EEE}.comment-list li.comment-level-odd{background:#f6f6f3}.comment-list li.comment-level-even{background:#FFF}.comment-list li.comment-by-author{background:#fff9e8}.comment-list li .comment-reply{text-align:right;font-size:.92857em}.comment-meta a{color:#999;font-size:.92857em}.comment-author{display:block;margin-bottom:3px;color:#444}.comment-author .avatar{float:left;margin-right:10px}.comment-author cite{font-weight:bold;font-style:normal}.comment-list .respond{margin-top:15px;border-top:1px solid #EEE}.respond .cancel-comment-reply{float:right;margin-top:15px;font-size:.92857em}#comment-form label{display:block;margin-bottom:.5em;font-weight:bold}#comment-form .required:after{content:" *";color:#C00}.respond ul{margin:0}.respond .compost{overflow:hidden;padding:10px 0 0}.respond .compost li input{width:160px;height:24px;padding-left:4px;border:1px solid #ddd;color:#666}.respond .compost li{float:left;margin-right:6px;margin-bottom:10px;list-style-type:none}.respond .textarea{width:100%;border:1px solid #ddd}.comment-content{margin:10px 0 0 45px}</style>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Main Footer -->
+ <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                     
+                    <div class="footer-text">
+                    <!--zmki优化 zmki.cn --基于WebStac  Modify BY Seogo 2020年5月18日19:41:46-->
+                    <!--今日诗词-->
+                    <span id="jinrishici-sentence">正在加载今日诗词....</span>
+					<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script> 
+					</div> 
+				 
+				    <!--友情链接-->
+				    				    <div class="links_zmki zmki_footer_mar">
+					<span>友情链接:</span> 
+					<li><a href="https://blog.vlssu.com/" title="" target="_blank">师叔的博客</a></li>
+  
+					</div>
+					<br>
+									 
+				    <div class="zmki_footer_mar">
+					<!--底部修改开始-->
+                    &copy; 2021&nbsp;Theme: 
+                    <a href="https://www.zmki.cn/" target="_blank"><strong> ZMKI</strong></a>&nbsp;   Design BY <a href="http://webstack.cc" target="_blank"><strong>Webstack</strong></a>&nbsp; Modify BY <a href="https://www.seogo.me" target="_blank"><strong>Seogo</strong></a>
+                    &nbsp;&nbsp;版权所有:<b>SMGoro</b>
+					&nbsp;&nbsp;&nbsp;<a href="http://beian.miit.gov.cn/" target="_blank"><strong> 冀ICP备20015733号 </strong></a>
+                    </div>
+                     
+                    <!--锚点-->
+                    <div class="go-up">
+                        <a href="links.html?replyTo=2#" rel="go-top">
+                            <i class="fa-angle-up"></i>
+                        </a>
+                    </div> 
+                    
+                    <!--站点运行时间开始--> 
+                    <div class="zmki_footer_mar">
+					<script>
+					(function(){
+					    var bp = document.createElement('script');
+					    var curProtocol = window.location.protocol.split(':')[0];
+					    if (curProtocol === 'https') {
+					        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+					    }
+					    else {
+					        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+					    }
+					    var s = document.getElementsByTagName("script")[0];
+					    s.parentNode.insertBefore(bp, s);
+					})();
+					  
+						</script>				 
+					                  站点已稳定运行：<SPAN id=span_dt_dt style="color: #2F889A;"></SPAN> 
+					                  <script language=javascript>function show_date_time(){
+					                    window.setTimeout("show_date_time()", 1000);
+					                    BirthDay=new Date("1/1/2019 11:13:14 ");
+					                    today=new Date();
+					                    timeold=(today.getTime()-BirthDay.getTime());
+					                    sectimeold=timeold/1000
+					                    secondsold=Math.floor(sectimeold);
+					                    msPerDay=24*60*60*1000
+					                    e_daysold=timeold/msPerDay
+					                    daysold=Math.floor(e_daysold);
+					                    e_hrsold=(e_daysold-daysold)*24;
+					                    hrsold=Math.floor(e_hrsold);
+					                    e_minsold=(e_hrsold-hrsold)*60;
+					                    minsold=Math.floor((e_hrsold-hrsold)*60);
+					                    seconds=Math.floor((e_minsold-minsold)*60);
+					                    span_dt_dt.innerHTML='<font style=color:#C40000>'+daysold+'</font> 天 <font style=color:#C40000>'+hrsold+'</font> 时 <font style=color:#C40000>'+minsold+'</font> 分 <font style=color:#C40000>'+seconds+'</font> 秒';
+					                    }show_date_time();</script> 
+					                      
+                    <!--站点运行时间结束-->
+                    </div>
+                </div>
+            </footer>
+        </div>
+	</div>
+  
+    <script src="../usr/themes/WebStack/js/index.min.js"></script>
+    <script src="../usr/themes/WebStack/js/zui.js"></script>
+    <script src="../usr/themes/WebStack/js/bootstrap.min.js"></script>
+    <script src="../usr/themes/WebStack/js/TweenMax.min.js"></script>
+    <script src="../usr/themes/WebStack/js/resizeable.js"></script>
+    <script src="../usr/themes/WebStack/js/joinable.js"></script>
+    <script src="../usr/themes/WebStack/js/xenon-api.js"></script>
+    <script src="../usr/themes/WebStack/js/xenon-toggles.js"></script>
+    <script src="../usr/themes/WebStack/js/xenon-custom.js"></script>
+    <script type="text/javascript">
+	 <!--//夜间模式-->    
+      
+(function(){
+    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
+        if(new Date().getHours() > 22 || new Date().getHours() < 6){
+            document.body.classList.add('night');
+            document.cookie = "night=1;path=/";
+            console.log('夜间模式开启');
+        }else{
+            document.body.classList.remove('night');
+            document.cookie = "night=0;path=/";
+            console.log('夜间模式关闭');
+        }
+    }else{
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+        if(night == '0'){
+            document.body.classList.remove('night');
+        }else if(night == '1'){
+            document.body.classList.add('night');
+        }
+    }
+})();
+//夜间模式切换
+function switchNightMode(){
+    var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+    if(night == '0'){
+        document.body.classList.add('night');
+        document.cookie = "night=1;path=/"
+        console.log(' ');
+    }else{
+        document.body.classList.remove('night');
+        document.cookie = "night=0;path=/"
+        console.log(' ');
+    }
+}
+ 
+//全屏切换
+//控制全屏
+function enterfullscreen() { //进入全屏
+  $("#fullscreen").html(" ");
+  var docElm = document.documentElement;
+  //W3C
+  if(docElm.requestFullscreen) {
+    docElm.requestFullscreen();
+  }
+  //FireFox
+  else if(docElm.mozRequestFullScreen) {
+    docElm.mozRequestFullScreen();
+  }
+  //Chrome等
+  else if(docElm.webkitRequestFullScreen) {
+    docElm.webkitRequestFullScreen();
+  }
+  //IE11
+  else if(elem.msRequestFullscreen) {
+    elem.msRequestFullscreen();
+  }
+}
+function exitfullscreen() { //退出全屏
+  $("#fullscreen").html(" ");
+  if(document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if(document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if(document.webkitCancelFullScreen) {
+    document.webkitCancelFullScreen();
+  } else if(document.msExitFullscreen) {
+    document.msExitFullscreen();
+  }
+}
+ 
+var a = 0;
+$('#fullscreen').on('click', function() {
+  a++;
+  a % 2 == 1 ? enterfullscreen() : exitfullscreen();
+})
+</script>
+<!--统计代码-->
+ <script> var _hmt = _hmt || []; (function() {   var hm = document.createElement("script");   hm.src = "https://hm.baidu.com/hm.js?3dbc3f04d9b69d0a8e501ba74a763356";   var s = document.getElementsByTagName("script")[0];    s.parentNode.insertBefore(hm, s); })(); </script> <script>
+// var _hmt = _hmt || [];
+// (function() {
+//   var hm = document.createElement("script");
+//   hm.src = "https://hm.baidu.com/hm.js?ce24fad4121e4d296c3f05d016ae4c64";
+//   var s = document.getElementsByTagName("script")[0]; 
+//   s.parentNode.insertBefore(hm, s);
+// })();
+ </script>
+
+</body>
+</html>   

@@ -1,0 +1,149 @@
+<!--
+ 本网页代码由Q.叶编写，Q.叶版权所有
+ 由layui和明月浩空音乐播放器提供驱动
+ 请勿侵权，侵权必究
+ Q.叶QQ：2962202618
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="小栗子,机器人,QQ机器人,qq机器人,小栗子机器人,小栗子框架,机器人框架,群管机器人" />
+    <meta name="description" content="小栗子机器人是一款安卓QQ机器人框架，支持批量登录，拥有极其丰富的API，可通过API进行二次开发，实现众多功能" />
+    <title>小栗子机器人官网</title>
+    <link rel="icon" type="image/png" href="layui/images/icon.ico"/>
+    <link rel="stylesheet" href="layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="layui/css/global.css" media="all">
+</head>
+<body>
+            <div class="layui-carousel" id="background">
+                <div carousel-item>
+                        <div>
+                            <div class="site-banner" style="background-image: url('layui/images/one.jpg'); height: 100%; background-size: cover;">
+                                <div class="site-banner-main">
+                                    <div class="site-zfj">
+                                        <i class="layui-icon" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+                                    </div>
+                                    <div class="layui-anim site-desc">
+                                        <p class="web-font-desc">多功能稳定框架</p>
+                                        <cite>小栗子机器人提供众多其他框架没有的功能，提供全方面的消息类型解析，同时内核采用较新的手Q8.5.5保证其稳定运行</cite>
+                                    </div>
+                                    <div class="site-download">
+                                        <a href="https://wws.lanzous.com/b01hjuita" class="layui-inline site-down" target="_blank">
+                                            <cite class="layui-icon"></cite>
+                                            下载最新框架
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div>
+                        <div class="site-banner" style="background-image: url('layui/images/two.jpg'); height: 100%; background-size: cover;">
+                            <div class="site-banner-main">
+                                <div class="site-zfj">
+                                    <i class="layui-icon" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+                                </div>
+                                <div class="layui-anim site-desc">
+                                    <p class="web-font-desc">易上手的SDK代码</p>
+                                    <cite>SDK采用易语言编写，易于上手，同时，小栗子直接与插件进行自定义数据类型交换，无需转换数据，开发便捷高效</cite>
+                                </div>
+                                <div class="site-download">
+                                    <a href="https://wws.lanzous.com/b01hjuivc" class="layui-inline site-down" target="_blank">
+                                        <cite class="layui-icon"></cite>
+                                        下载SDK
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="site-banner" style="background-image: url('layui/images/three.jpg'); height: 100%; background-size: cover;">
+                            <div class="site-banner-main">
+                                <div class="site-zfj">
+                                    <i class="layui-icon" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+                                </div>
+                                <div class="layui-anim site-desc">
+                                    <p class="web-font-desc">完美的语音收发</p>
+                                    <cite>小栗子提供转码库，可转码并发送各种格式音频，同时，语音收发支持各种不同的语音类型，甚至包括红包评级语音</cite>
+                                </div>
+                                <div class="site-download">
+                                    <a href="https://wws.lanzous.com/b01hjuiwd" class="layui-inline site-down" target="_blank">
+                                        <cite class="layui-icon"></cite>
+                                        下载语音转码库
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="site-banner" style="background-image: url('layui/images/four.jpg'); height: 100%; background-size: cover;">
+                            <div class="site-banner-main">
+                                <div class="site-zfj">
+                                    <i class="layui-icon" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+                                </div>
+                                <div class="layui-anim site-desc">
+                                    <p class="web-font-desc">专业的交流社区</p>
+                                    <cite>小栗子为用户搭建了专业的交流社区，可在社区分享、发布、售卖插件，也可聊天畅谈、求助、交易、反馈等</cite>
+                                </div>
+                                <div class="site-download">
+                                    <a href="http://bbs.xiaolz.cn/" class="layui-inline site-down" target="_blank">
+                                        <cite class="layui-icon"></cite>
+                                        前往交流社区
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="site-banner" style="background-image: url('layui/images/five.jpg'); height: 100%; background-size: cover;">
+                            <div class="site-banner-main">
+                                <div class="site-zfj">
+                                    <i class="layui-icon" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+                                </div>
+                                <div class="layui-anim site-desc">
+                                    <p class="web-font-desc">众多实用有趣的API</p>
+                                    <cite>小栗子提供了大量实用有趣的API，甚至包括模拟地理位置、上传群文件、撤回消息、匿名、发红包等</cite>
+                                </div>
+                                <div class="site-download">
+                                    <a href="https://www.kancloud.cn/sswockssw/qqrobot/1228179" class="layui-inline site-down" target="_blank">
+                                        <cite class="layui-icon"></cite>
+                                        查看API文档
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="layui/layui.js"></script>
+<script>
+layui.config({
+  version: '1594038785991' //更新 js 缓存
+});
+
+layui.use(['layer', 'carousel'], function(){ //引入需要的模块
+  var layer = layui.layer //弹层
+  ,carousel = layui.carousel //轮播
+  //执行一个轮播实例
+  carousel.render({
+    elem: '#background'
+    ,full: true //全屏显示
+    ,interval: 10000 //考虑手机加载慢，延长下
+    ,anim: 'fade'  //渐入渐出
+  });
+
+  layer.open({
+  title: '小栗子机器人使用声明'
+  ,content: '使用本框架则表明您已同意<a href="https://www.kancloud.cn/sswockssw/qqrobot/1584537" target="_blank">《用户协议》</a>'
+});
+  });
+</script>
+<script src="https://lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://myhkw.cn/player/js/player.js" id="myhk" key="155158261673" m="1"></script>
+</body>
+</html>
